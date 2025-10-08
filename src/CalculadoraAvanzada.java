@@ -1,12 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 /**
  *
  * @author arath
  */
-public class CalculadoraAvanzada {
-    
+public class CalculadoraAvanzada extends CalculadoraBasica {
+
+    public double potencia(int base, int exponente) {
+        return Math.pow(base, exponente);
+    }
+
 }
